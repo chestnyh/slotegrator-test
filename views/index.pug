@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  div.row
+    div(class="alert alert-success d-none" id="success-notify")
+    div(class="alert alert-info d-none" id="info-notify")
+    div(class="alert alert-warning d-none" id="warning-notify")
+    div(class="alert alert-danger d-none" id="danger-notify")
+  div.row
+    div.col-9
+      canvas#importantWeather
+    div.col-3#importantNotify(style="overflow:scroll; height:500px") 
+      div(class="alert alert-success" id="success-notify") Some notify
+  div.row
+    div.col-9  
+      canvas#unimportantWeather
+    div.col-3#unimportantNotify(style="overflow:scroll; height:500px")
+      div(class="alert alert-success" id="success-notify") Some notify
+
+
+    
