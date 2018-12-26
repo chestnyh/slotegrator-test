@@ -14,3 +14,14 @@
 Адреса источников данных
 
 https://www.openweathermap.org/current
+
+Requirements:
+    - nodejs
+    - npm
+
+Get started
+```
+    git clone https://github.com/chestnyh/slotegrator-test.git
+    cd slotegrator-test
+    npm i && npm run start
+```
